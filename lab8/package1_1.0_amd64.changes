@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sat, 16 May 2026 12:31:43 +0300
+Source: package1
+Binary: package1 package1-dbgsym
+Architecture: source amd64
+Version: 1.0
+Distribution: unstable
+Urgency: low
+Maintainer: elkin misha <elkin-mo@mail.ru>
+Changed-By: elkin misha <elkin-mo@mail.ru>
+Description:
+ package1   - My Operating Systems lab no 7.
+Changes:
+ package1 (1.0) unstable; urgency=low
+ .
+   * Initial release of laboratory software
+Checksums-Sha1:
+ 3d57e8c3252be2976b279753520eb98cdac2eae1 503 package1_1.0.dsc
+ 46a02a610d1db600ab590502f8975f2e69937259 1648 package1_1.0.tar.xz
+ 5d4c3411af4b013fae19da4c34d7285d70e790c4 3024 package1-dbgsym_1.0_amd64.deb
+ 3fef8073486806ed488e997562d6cbe494079e41 6704 package1_1.0_amd64.buildinfo
+ a733f63ea1dfd269ffa5091680a445f18b452cf3 3476 package1_1.0_amd64.deb
+Checksums-Sha256:
+ e71e2e502b177d80ef966841bb6ced381ec760ab7aa245febe78a8b12f7eb829 503 package1_1.0.dsc
+ a7392e3a1c39a592b8d29dbf494481511e4f456da09c8b532226a823b686b234 1648 package1_1.0.tar.xz
+ 66ca3035a89e13f8aa16dac4ee2d15f3e19d2fc47bcc5e480fd8c907b0f74b97 3024 package1-dbgsym_1.0_amd64.deb
+ 62a868ff976c4ef05b72921fe999af8bebb0bd4d9addaf8a89d1f586540fd8df 6704 package1_1.0_amd64.buildinfo
+ 886c9d1f34664881eff6fe958f530f22ddc8fe035fb221ba976e5ab87ee46830 3476 package1_1.0_amd64.deb
+Files:
+ 63417d59581e48fc359d883f54ecebb8 503 utils optional package1_1.0.dsc
+ 77354eb653af5a25f19b8fddf0f07dec 1648 utils optional package1_1.0.tar.xz
+ 95f71f916ae24b7f7c904bfe5e45cd44 3024 debug optional package1-dbgsym_1.0_amd64.deb
+ 5b18821867adffb23b6e559d4d792966 6704 utils optional package1_1.0_amd64.buildinfo
+ e186a6837fa2613fdf021a76d02cf668 3476 utils optional package1_1.0_amd64.deb
